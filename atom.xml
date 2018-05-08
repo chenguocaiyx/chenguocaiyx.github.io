@@ -5,9 +5,9 @@
   <subtitle>不忘初心 方得始终</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="gcchen.cn/"/>
   <updated>2018-05-08T03:57:22.669Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>gcchen.cn/</id>
   
   <author>
     <name>Gage__</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>基于 Ubuntu 搭建 Hexo 个人博客</title>
-    <link href="http://yoursite.com/2018/05/08/install-hexo/"/>
-    <id>http://yoursite.com/2018/05/08/install-hexo/</id>
+    <link href="gcchen.cn/2018/05/08/install-hexo/"/>
+    <id>gcchen.cn/2018/05/08/install-hexo/</id>
     <published>2018-05-08T03:57:22.677Z</published>
     <updated>2018-05-08T03:57:22.669Z</updated>
     
@@ -34,17 +34,17 @@
     
     </summary>
     
-      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
+      <category term="Hexo" scheme="gcchen.cn/categories/Hexo/"/>
     
     
-      <category term="Ubuntu,Hexo" scheme="http://yoursite.com/tags/Ubuntu-Hexo/"/>
+      <category term="Ubuntu,Hexo" scheme="gcchen.cn/tags/Ubuntu-Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/05/04/hello-world/"/>
-    <id>http://yoursite.com/2018/05/04/hello-world/</id>
+    <link href="gcchen.cn/2018/05/04/hello-world/"/>
+    <id>gcchen.cn/2018/05/04/hello-world/</id>
     <published>2018-05-04T11:05:01.249Z</published>
     <updated>2018-05-04T11:05:01.249Z</updated>
     
