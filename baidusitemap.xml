@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/05/08/install-hexo/</loc>
+    <lastmod>2018-05-08T03:57:22.669Z</lastmod>
+    <data>
+        <display>
+        <title>基于 Ubuntu 搭建 Hexo 个人博客</title>
+        <pubTime>2018-05-08T03:57:22.677Z</pubTime>
+        
+        <tag>Ubuntu,Hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://yoursite.com/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+  <url>
+    <loc>http://yoursite.com/2018/05/04/hello-world/</loc>
+    <lastmod>2018-05-04T11:05:01.249Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2018-05-04T11:05:01.249Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
