@@ -6,5 +6,5 @@
 #########################################################################
 #!/bin/bash
 
-curl -H 'Content-Type:text/plain' --data-binary @~/hexo/public/baidu_urls.txt "http://data.zz.baidu.com/urls?site=gcchen.cn&token=x0SPBnwbE0swXSlg"
+curl -H 'Content-Type:text/plain' --data-binary @baidu_urls.txt "http://data.zz.baidu.com/urls?site=gcchen.cn&token=x0SPBnwbE0swXSlg"
 
