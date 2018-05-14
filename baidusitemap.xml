@@ -4,12 +4,32 @@
 
     
   <url>
+    <loc>gcchen.cn/2018/05/14/css/</loc>
+    <lastmod>2018-05-14T11:55:25.359Z</lastmod>
+    <data>
+        <display>
+        <title>CSS 之动态变换背景颜色</title>
+        <pubTime>2018-05-14T11:55:25.000Z</pubTime>
+        
+        <tag>CSS</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端" url="gcchen.cn/categories/%E5%89%8D%E7%AB%AF/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>gcchen.cn/2018/05/11/install-hexo/</loc>
-    <lastmod>2018-05-11T02:06:03.299Z</lastmod>
+    <lastmod>2018-05-11T02:08:39.572Z</lastmod>
     <data>
         <display>
         <title>基于 Ubuntu 搭建 Hexo 个人博客</title>
-        <pubTime>2018-05-11T02:06:03.335Z</pubTime>
+        <pubTime>2018-05-11T02:08:39.584Z</pubTime>
         
         <tag>Ubuntu,Hexo</tag>
          

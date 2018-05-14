@@ -302,6 +302,168 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="gcchen.cn/2018/05/14/css/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Gage__">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="GCCHEN'S BLOG">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/05/14/css/" itemprop="url">CSS 之动态变换背景颜色</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-05-14T19:55:25+08:00">
+                2018-05-14
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/前端/" itemprop="url" rel="index">
+                    <span itemprop="name">前端</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="先上效果图"><a href="#先上效果图" class="headerlink" title="先上效果图"></a>先上效果图</h2><p>！<a href="https://img-blog.csdn.net/20180514191800648" target="_blank" rel="noopener">效果图</a></p>
+<p>HTML代码：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=&quot;header&quot;&gt;  </span><br><span class="line">    &lt;h1&gt;GCCHRN&apos;S BLOG&lt;/h1&gt;  </span><br><span class="line">	&lt;ul class=&quot;nav nav-tabs&quot;&gt;  </span><br><span class="line">		&lt;li role=&quot;presentation&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;首页&lt;/a&gt;&lt;/li&gt;  </span><br><span class="line">		&lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;#&quot;&gt;分类&lt;/a&gt;&lt;/li&gt;  </span><br><span class="line">		&lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;#&quot;&gt;归档&lt;/a&gt;&lt;/li&gt;  </span><br><span class="line">		&lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;#&quot;&gt;关于&lt;/a&gt;&lt;/li&gt;  </span><br><span class="line">	&lt;/ul&gt;  </span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure></p>
+<p>CSS代码：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">&lt;style type=&quot;text/css&quot;&gt;  </span><br><span class="line">    .header&#123;          </span><br><span class="line">		padding: 40px 30px 60px 30px;  </span><br><span class="line">		text-align: center;  </span><br><span class="line">		animation:mymove 5s infinite; /*animation 时间 播放次数*/  </span><br><span class="line">		animation-direction:alternate; /*是否循环交替反向播放动画*/ </span><br><span class="line">		/*Safari 和 Chrome:*/</span><br><span class="line">		-webkit-animation:mymove 5s infinite;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	@keyframes mymove  </span><br><span class="line">	&#123;</span><br><span class="line">	  </span><br><span class="line">	    0% &#123;background:#87CEFF;&#125;  </span><br><span class="line">		25% &#123;background:#54FF9F;&#125;  </span><br><span class="line">		50% &#123;background:#7CCD7C;&#125;  </span><br><span class="line">		75% &#123;background:#63B8FF;&#125;  </span><br><span class="line">		100% &#123;background:#00FFFF;&#125;  </span><br><span class="line">	&#125;  </span><br><span class="line"></span><br><span class="line">	/*Safari 和 Chrome:*/</span><br><span class="line">	@-webkit-keyframes mymove</span><br><span class="line">	&#123;</span><br><span class="line"></span><br><span class="line">		0% &#123;background:#87CEFF;&#125;</span><br><span class="line">        25% &#123;background:#54FF9F;&#125;</span><br><span class="line">		50% &#123;background:#7CCD7C;&#125;</span><br><span class="line">		75% &#123;background:#63B8FF;&#125;</span><br><span class="line">		100% &#123;background:#00FFFF;&#125;</span><br><span class="line">	&#125;</span><br><span class="line">  </span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>才发现我如此喜欢前端，</li>
+<li>特别是对这种动态效果，</li>
+<li>特别喜欢，</li>
+<li>无法抗拒，</li>
+<li>这仅仅是开始而已，</li>
+<li>主要还是记录下来给自己看的，</li>
+<li>然后一点一点进步，</li>
+<li>让进步看得见！</li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+
+<div>
+      
+</div>
+
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+<div>
+    
+ </div>
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="gcchen.cn/2018/05/11/install-hexo/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -333,7 +495,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-05-11T10:06:03+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-05-11T10:08:39+08:00">
                 2018-05-11
               </time>
             
@@ -660,7 +822,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -671,7 +833,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">categories</span>
                 </a>
               </div>
@@ -682,7 +844,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">tags</span>
                 </a>
               </div>
