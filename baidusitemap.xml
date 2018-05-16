@@ -4,8 +4,28 @@
 
     
   <url>
+    <loc>gcchen.cn/2018/05/16/animation-1/</loc>
+    <lastmod>2018-05-16T13:02:23.485Z</lastmod>
+    <data>
+        <display>
+        <title>CSS3 动画的简单实现</title>
+        <pubTime>2018-05-16T12:35:51.000Z</pubTime>
+        
+        <tag>CSS</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端" url="gcchen.cn/categories/%E5%89%8D%E7%AB%AF/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>gcchen.cn/2018/05/16/animation/</loc>
-    <lastmod>2018-05-16T12:59:00.301Z</lastmod>
+    <lastmod>2018-05-16T13:01:48.553Z</lastmod>
     <data>
         <display>
         <title>CSS3 动画的简单实现</title>
@@ -25,7 +45,7 @@
     
   <url>
     <loc>gcchen.cn/2018/05/14/css/</loc>
-    <lastmod>2018-05-15T00:46:15.954Z</lastmod>
+    <lastmod>2018-05-16T13:00:55.973Z</lastmod>
     <data>
         <display>
         <title>CSS 之动态变换背景颜色</title>
