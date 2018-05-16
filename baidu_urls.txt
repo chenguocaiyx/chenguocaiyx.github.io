@@ -1,3 +1,4 @@
+gcchen.cn/2018/05/16/animation/
 gcchen.cn/2018/05/14/css/
 gcchen.cn/2018/05/11/install-hexo/
 gcchen.cn/2018/05/04/hello-world/
