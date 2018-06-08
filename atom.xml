@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="gcchen.cn/"/>
-  <updated>2018-06-08T11:32:18.005Z</updated>
+  <updated>2018-06-08T11:43:55.169Z</updated>
   <id>gcchen.cn/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>前端面试二</title>
+    <link href="gcchen.cn/2018/06/08/%E9%9D%A2%E8%AF%95%E4%BA%8C/"/>
+    <id>gcchen.cn/2018/06/08/面试二/</id>
+    <published>2018-06-08T11:39:22.000Z</published>
+    <updated>2018-06-08T11:43:55.169Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>坐标：广州曲速未来</p><p>时间：2018/6/6</p><p>这次面试没有笔试，面试官直接上问题，一句废话也没有，然后自己把问题记录下来，查漏补缺吧，还查漏补缺，搞得好像要准备高考的复习一样，就看看自己有哪里不足的，把相关的知识补一下，不能只知道经常用的，其他的也要有一个大概的了解。</p><h2 id="面试"><a href="#面试" class="headerlink" title="面试"></a>面试</h2><p>1、js 的基本数据类型有哪些？</p><p>2、js 数组操作的方法</p><p>3、js 数组的合并</p><p>4、说一下面向对象的编程</p><p>5、说一下怎么继承</p><p>6、html5 的新特性</p><p>7、css3 的新特性</p><p>8、动画的方法有哪些</p><p>9、ES5 和 ES6 了解吗，新增特性有哪些</p><p>10、px em rem 的单位分别是什么</p><p>11、Ajax 了解吗，有什么状态码，代表什么</p><p>12、node 了解吗</p><p>13、Jquery操作css的方法</p><p>14、webpack 了解吗，跟gulp有什么区别</p><p>15、 == 和 === 有什么分别</p><p>大概就这么多，迟点有时间把相关的知识补上来。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;坐标：广州曲速未来&lt;/p&gt;
+&lt;p&gt;时间：2018/6/6&lt;/p&gt;
+&lt;p&gt;这次面试没有笔试，面试官直接上问题，一句废话也没有，然后自己把问题记
+      
+    
+    </summary>
+    
+      <category term="面试" scheme="gcchen.cn/categories/%E9%9D%A2%E8%AF%95/"/>
+    
+    
+      <category term="面试" scheme="gcchen.cn/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>前端面试一</title>
     <link href="gcchen.cn/2018/06/08/%E9%9D%A2%E8%AF%95%E4%B8%80/"/>
     <id>gcchen.cn/2018/06/08/面试一/</id>
     <published>2018-06-08T11:22:10.000Z</published>
-    <updated>2018-06-08T11:32:18.005Z</updated>
+    <updated>2018-06-08T11:44:59.493Z</updated>
     
     <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>  好像好久都没更新博客了，最近好像有点忙，毕竟在这里写博客还是有花一些精力的，这段时间都在准备专业课的考核，然后准备面试，现在还没有找到暑假的实习，然后在这里总结一下自己面试的情况，接下来再接再厉。</p><h2 id="面试过程"><a href="#面试过程" class="headerlink" title="面试过程"></a>面试过程</h2><p>坐标：广州番禺胖鱼</p><p>时间：2018/6/2</p><p>1、填表，填写基本信息</p><p>2、上机测试</p><p>内容：给出设计图和素材，需要自己切图并且做成网页；</p><p>时间： 90分钟；</p><p>结果：没完成，不通过；</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>听到面试官说，他们公司是用 DW 做的页面，90分钟做出来是基本的要求，我是没有用他们的软件，自己拿出了自带U盘装了一个webstrom试用，然后做了一半+.，但是基本布局我已经完成了，是需要往里面填充内容就可以了，然后也吃了工具使用的亏，用DW是可以很快做出来，自己手撸却没有做出来，可以也是因为不够熟练的原因，这方面有待加强；然后还有一部分原因可以是时间没有把握好，我应该自己计时，提醒自己还有多少时间；最后我是觉得要是想深入学习前端，还是不要依赖DW ，最好是自己手撸的，编程能力还是最基本的，所以用DW我是比较抗拒的，所以也没有很遗憾，但是还是有点不开心啦，毕竟没通过，但第一次出来找工作哪里有这么一帆风顺呢，就当作是一场试炼;最后最后，面试官说他们公司有培训的业务，推荐我去加强一下，我是非常抗拒的，因为在广大网友的熏陶下，说什么去培训机构的都是什么填鸭式的灌输一些知识给你，所以所以我是非常抗拒的，网上这么多资源都学不过来了，我还培训？（关键是没钱），我还是比较倾向于自学的！</p><h2 id="应对方法"><a href="#应对方法" class="headerlink" title="应对方法"></a>应对方法</h2><p>可以利用框架来达到快速布局的目的，比如：Bootstrap之类的，然后最重要平时也要多加练习，多用，不用就退化了，下次加油！</p>]]></content>
     
@@ -33,6 +60,8 @@
       
     
     </summary>
+    
+      <category term="面试" scheme="gcchen.cn/categories/%E9%9D%A2%E8%AF%95/"/>
     
     
       <category term="面试" scheme="gcchen.cn/tags/%E9%9D%A2%E8%AF%95/"/>
