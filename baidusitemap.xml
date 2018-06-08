@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>gcchen.cn/2018/06/08/install-hexo/</loc>
+    <lastmod>2018-06-08T12:47:55.817Z</lastmod>
+    <data>
+        <display>
+        <title>基于 Ubuntu 搭建 Hexo 个人博客</title>
+        <pubTime>2018-06-08T12:47:55.825Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="gcchen.cn/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>gcchen.cn/2018/06/08/%E9%9D%A2%E8%AF%95%E4%B8%80/</loc>
     <lastmod>2018-06-08T11:44:59.493Z</lastmod>
     <data>
@@ -97,26 +117,6 @@
            
              
               <breadCrumb title="前端" url="gcchen.cn/categories/%E5%89%8D%E7%AB%AF/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>gcchen.cn/2018/05/11/install-hexo/</loc>
-    <lastmod>2018-05-11T02:08:39.572Z</lastmod>
-    <data>
-        <display>
-        <title>基于 Ubuntu 搭建 Hexo 个人博客</title>
-        <pubTime>2018-05-11T02:08:39.584Z</pubTime>
-        
-        <tag>Ubuntu,Hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="gcchen.cn/categories/Hexo/"/>
           
         </display>
     </data>
